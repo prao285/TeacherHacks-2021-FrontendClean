@@ -1,3 +1,23 @@
+
+
+# Xcode
+*/build/*
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+*.xccheckout
+!default.xcworkspace
+
+
+
+
 # OS X Finder
 .DS_Store
 
@@ -23,6 +43,10 @@ build/
 *~
 *.dat
 *.dep
+
+#CocoaPods
+Pods
+
 
 
 # Xcode
