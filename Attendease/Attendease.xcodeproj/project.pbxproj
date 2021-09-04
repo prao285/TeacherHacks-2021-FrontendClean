@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC2C4CA226E4216F002BEA6C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4CA126E4216F002BEA6C /* Tests_iOS.swift */; };
+		AC2C4CAD26E4216F002BEA6C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4CAC26E4216F002BEA6C /* Tests_macOS.swift */; };
+		AC2C4CAF26E4216F002BEA6C /* AttendeaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4C8626E4216C002BEA6C /* AttendeaseApp.swift */; };
+		AC2C4CB026E4216F002BEA6C /* AttendeaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4C8626E4216C002BEA6C /* AttendeaseApp.swift */; };
+		AC2C4CB326E4216F002BEA6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2C4C8826E4216F002BEA6C /* Assets.xcassets */; };
+		AC2C4CB426E4216F002BEA6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2C4C8826E4216F002BEA6C /* Assets.xcassets */; };
+		AC2C4CC426E421BC002BEA6C /* LogInPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4CC326E421BC002BEA6C /* LogInPageView.swift */; };
+		AC2C4CC526E421BC002BEA6C /* LogInPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4CC326E421BC002BEA6C /* LogInPageView.swift */; };
+		AC2C4CC826E421EF002BEA6C /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4CC726E421EF002BEA6C /* SignIn.swift */; };
+		AC2C4CC926E421EF002BEA6C /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4CC726E421EF002BEA6C /* SignIn.swift */; };
+		AC2C4CCB26E4220E002BEA6C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4CCA26E4220E002BEA6C /* CircleImage.swift */; };
+		AC2C4CCC26E4220E002BEA6C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4CCA26E4220E002BEA6C /* CircleImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC2C4C9E26E4216F002BEA6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC2C4C8126E4216C002BEA6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC2C4C8C26E4216F002BEA6C;
+			remoteInfo = "Attendease (iOS)";
+		};
+		AC2C4CA926E4216F002BEA6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC2C4C8126E4216C002BEA6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC2C4C9426E4216F002BEA6C;
+			remoteInfo = "Attendease (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC2C4C8626E4216C002BEA6C /* AttendeaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeaseApp.swift; sourceTree = "<group>"; };
+		AC2C4C8826E4216F002BEA6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC2C4C8D26E4216F002BEA6C /* Attendease.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attendease.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2C4C9026E4216F002BEA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2C4C9526E4216F002BEA6C /* Attendease.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attendease.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2C4C9726E4216F002BEA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2C4C9826E4216F002BEA6C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		AC2C4C9D26E4216F002BEA6C /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2C4CA126E4216F002BEA6C /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		AC2C4CA326E4216F002BEA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2C4CA826E4216F002BEA6C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2C4CAC26E4216F002BEA6C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		AC2C4CAE26E4216F002BEA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2C4CC326E421BC002BEA6C /* LogInPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPageView.swift; sourceTree = "<group>"; };
+		AC2C4CC726E421EF002BEA6C /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		AC2C4CCA26E4220E002BEA6C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC2C4C8A26E4216F002BEA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2C4C9226E4216F002BEA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2C4C9A26E4216F002BEA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2C4CA526E4216F002BEA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC2C4C8026E4216C002BEA6C = {
+			isa = PBXGroup;
+			children = (
+				AC2C4C8526E4216C002BEA6C /* Shared */,
+				AC2C4C8F26E4216F002BEA6C /* iOS */,
+				AC2C4C9626E4216F002BEA6C /* macOS */,
+				AC2C4CA026E4216F002BEA6C /* Tests iOS */,
+				AC2C4CAB26E4216F002BEA6C /* Tests macOS */,
+				AC2C4C8E26E4216F002BEA6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC2C4C8526E4216C002BEA6C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AC2C4C8626E4216C002BEA6C /* AttendeaseApp.swift */,
+				AC2C4CC326E421BC002BEA6C /* LogInPageView.swift */,
+				AC2C4CC626E421CB002BEA6C /* LogInPageAssets */,
+				AC2C4C8826E4216F002BEA6C /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AC2C4C8E26E4216F002BEA6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC2C4C8D26E4216F002BEA6C /* Attendease.app */,
+				AC2C4C9526E4216F002BEA6C /* Attendease.app */,
+				AC2C4C9D26E4216F002BEA6C /* Tests iOS.xctest */,
+				AC2C4CA826E4216F002BEA6C /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC2C4C8F26E4216F002BEA6C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AC2C4C9026E4216F002BEA6C /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		AC2C4C9626E4216F002BEA6C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AC2C4C9726E4216F002BEA6C /* Info.plist */,
+				AC2C4C9826E4216F002BEA6C /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AC2C4CA026E4216F002BEA6C /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AC2C4CA126E4216F002BEA6C /* Tests_iOS.swift */,
+				AC2C4CA326E4216F002BEA6C /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		AC2C4CAB26E4216F002BEA6C /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				AC2C4CAC26E4216F002BEA6C /* Tests_macOS.swift */,
+				AC2C4CAE26E4216F002BEA6C /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		AC2C4CC626E421CB002BEA6C /* LogInPageAssets */ = {
+			isa = PBXGroup;
+			children = (
+				AC2C4CC726E421EF002BEA6C /* SignIn.swift */,
+				AC2C4CCA26E4220E002BEA6C /* CircleImage.swift */,
+			);
+			path = LogInPageAssets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC2C4C8C26E4216F002BEA6C /* Attendease (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2C4CB726E4216F002BEA6C /* Build configuration list for PBXNativeTarget "Attendease (iOS)" */;
+			buildPhases = (
+				AC2C4C8926E4216F002BEA6C /* Sources */,
+				AC2C4C8A26E4216F002BEA6C /* Frameworks */,
+				AC2C4C8B26E4216F002BEA6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Attendease (iOS)";
+			productName = "Attendease (iOS)";
+			productReference = AC2C4C8D26E4216F002BEA6C /* Attendease.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC2C4C9426E4216F002BEA6C /* Attendease (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2C4CBA26E4216F002BEA6C /* Build configuration list for PBXNativeTarget "Attendease (macOS)" */;
+			buildPhases = (
+				AC2C4C9126E4216F002BEA6C /* Sources */,
+				AC2C4C9226E4216F002BEA6C /* Frameworks */,
+				AC2C4C9326E4216F002BEA6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Attendease (macOS)";
+			productName = "Attendease (macOS)";
+			productReference = AC2C4C9526E4216F002BEA6C /* Attendease.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC2C4C9C26E4216F002BEA6C /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2C4CBD26E4216F002BEA6C /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				AC2C4C9926E4216F002BEA6C /* Sources */,
+				AC2C4C9A26E4216F002BEA6C /* Frameworks */,
+				AC2C4C9B26E4216F002BEA6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2C4C9F26E4216F002BEA6C /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = AC2C4C9D26E4216F002BEA6C /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AC2C4CA726E4216F002BEA6C /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2C4CC026E4216F002BEA6C /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				AC2C4CA426E4216F002BEA6C /* Sources */,
+				AC2C4CA526E4216F002BEA6C /* Frameworks */,
+				AC2C4CA626E4216F002BEA6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2C4CAA26E4216F002BEA6C /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = AC2C4CA826E4216F002BEA6C /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC2C4C8126E4216C002BEA6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AC2C4C8C26E4216F002BEA6C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					AC2C4C9426E4216F002BEA6C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					AC2C4C9C26E4216F002BEA6C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AC2C4C8C26E4216F002BEA6C;
+					};
+					AC2C4CA726E4216F002BEA6C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AC2C4C9426E4216F002BEA6C;
+					};
+				};
+			};
+			buildConfigurationList = AC2C4C8426E4216C002BEA6C /* Build configuration list for PBXProject "Attendease" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC2C4C8026E4216C002BEA6C;
+			productRefGroup = AC2C4C8E26E4216F002BEA6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC2C4C8C26E4216F002BEA6C /* Attendease (iOS) */,
+				AC2C4C9426E4216F002BEA6C /* Attendease (macOS) */,
+				AC2C4C9C26E4216F002BEA6C /* Tests iOS */,
+				AC2C4CA726E4216F002BEA6C /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC2C4C8B26E4216F002BEA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2C4CB326E4216F002BEA6C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2C4C9326E4216F002BEA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2C4CB426E4216F002BEA6C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2C4C9B26E4216F002BEA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2C4CA626E4216F002BEA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC2C4C8926E4216F002BEA6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2C4CC426E421BC002BEA6C /* LogInPageView.swift in Sources */,
+				AC2C4CAF26E4216F002BEA6C /* AttendeaseApp.swift in Sources */,
+				AC2C4CC826E421EF002BEA6C /* SignIn.swift in Sources */,
+				AC2C4CCB26E4220E002BEA6C /* CircleImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2C4C9126E4216F002BEA6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2C4CC526E421BC002BEA6C /* LogInPageView.swift in Sources */,
+				AC2C4CB026E4216F002BEA6C /* AttendeaseApp.swift in Sources */,
+				AC2C4CC926E421EF002BEA6C /* SignIn.swift in Sources */,
+				AC2C4CCC26E4220E002BEA6C /* CircleImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2C4C9926E4216F002BEA6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2C4CA226E4216F002BEA6C /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2C4CA426E4216F002BEA6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2C4CAD26E4216F002BEA6C /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC2C4C9F26E4216F002BEA6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC2C4C8C26E4216F002BEA6C /* Attendease (iOS) */;
+			targetProxy = AC2C4C9E26E4216F002BEA6C /* PBXContainerItemProxy */;
+		};
+		AC2C4CAA26E4216F002BEA6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC2C4C9426E4216F002BEA6C /* Attendease (macOS) */;
+			targetProxy = AC2C4CA926E4216F002BEA6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC2C4CB526E4216F002BEA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC2C4CB626E4216F002BEA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC2C4CB826E4216F002BEA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ccac.Attendease;
+				PRODUCT_NAME = Attendease;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC2C4CB926E4216F002BEA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ccac.Attendease;
+				PRODUCT_NAME = Attendease;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC2C4CBB26E4216F002BEA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ccac.Attendease;
+				PRODUCT_NAME = Attendease;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AC2C4CBC26E4216F002BEA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ccac.Attendease;
+				PRODUCT_NAME = Attendease;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AC2C4CBE26E4216F002BEA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ccac.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Attendease (iOS)";
+			};
+			name = Debug;
+		};
+		AC2C4CBF26E4216F002BEA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ccac.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Attendease (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC2C4CC126E4216F002BEA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "ccac.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Attendease (macOS)";
+			};
+			name = Debug;
+		};
+		AC2C4CC226E4216F002BEA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "ccac.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Attendease (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC2C4C8426E4216C002BEA6C /* Build configuration list for PBXProject "Attendease" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2C4CB526E4216F002BEA6C /* Debug */,
+				AC2C4CB626E4216F002BEA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2C4CB726E4216F002BEA6C /* Build configuration list for PBXNativeTarget "Attendease (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2C4CB826E4216F002BEA6C /* Debug */,
+				AC2C4CB926E4216F002BEA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2C4CBA26E4216F002BEA6C /* Build configuration list for PBXNativeTarget "Attendease (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2C4CBB26E4216F002BEA6C /* Debug */,
+				AC2C4CBC26E4216F002BEA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2C4CBD26E4216F002BEA6C /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2C4CBE26E4216F002BEA6C /* Debug */,
+				AC2C4CBF26E4216F002BEA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2C4CC026E4216F002BEA6C /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2C4CC126E4216F002BEA6C /* Debug */,
+				AC2C4CC226E4216F002BEA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC2C4C8126E4216C002BEA6C /* Project object */;
+}
