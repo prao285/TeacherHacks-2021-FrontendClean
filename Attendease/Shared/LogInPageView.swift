@@ -2,13 +2,16 @@ import SwiftUI
 
 struct LogInPageView: View {
     var body: some View {
-        ZStack {
+       NavigationView{
             VStack {
                 CircleImage()
+                    .navigationTitle("Sign In")
                     .padding(25)
                 SignIn()
             }
-        }
+       }
+       .navigationViewStyle(StackNavigationViewStyle())
+        
     }
 }
 

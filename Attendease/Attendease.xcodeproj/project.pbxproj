@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA8F74AF26E42AD600B73781 /* AttendenceReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F74AE26E42AD500B73781 /* AttendenceReportView.swift */; };
+		AA8F74B426E44E6F00B73781 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F74B326E44E6F00B73781 /* QRScannerView.swift */; };
+		AA8F74B526E44E6F00B73781 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F74B326E44E6F00B73781 /* QRScannerView.swift */; };
+		AA8F74BB26E451B600B73781 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = AA8F74BA26E451B600B73781 /* CodeScanner */; };
+		AA8F74BD26E4588E00B73781 /* YourClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F74BC26E4588E00B73781 /* YourClassView.swift */; };
+		AA8F74BE26E4588E00B73781 /* YourClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F74BC26E4588E00B73781 /* YourClassView.swift */; };
+		AA8F74C026E4626E00B73781 /* LoginFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F74BF26E4626E00B73781 /* LoginFunctions.swift */; };
+		AA8F74C126E4626E00B73781 /* LoginFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F74BF26E4626E00B73781 /* LoginFunctions.swift */; };
 		AC2C4CA226E4216F002BEA6C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4CA126E4216F002BEA6C /* Tests_iOS.swift */; };
 		AC2C4CAD26E4216F002BEA6C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4CAC26E4216F002BEA6C /* Tests_macOS.swift */; };
 		AC2C4CAF26E4216F002BEA6C /* AttendeaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C4C8626E4216C002BEA6C /* AttendeaseApp.swift */; };
@@ -39,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA8F74AE26E42AD500B73781 /* AttendenceReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendenceReportView.swift; sourceTree = "<group>"; };
+		AA8F74B326E44E6F00B73781 /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		AA8F74BC26E4588E00B73781 /* YourClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourClassView.swift; sourceTree = "<group>"; };
+		AA8F74BF26E4626E00B73781 /* LoginFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFunctions.swift; sourceTree = "<group>"; };
 		AC2C4C8626E4216C002BEA6C /* AttendeaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeaseApp.swift; sourceTree = "<group>"; };
 		AC2C4C8826E4216F002BEA6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC2C4C8D26E4216F002BEA6C /* Attendease.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attendease.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8F74BB26E451B600B73781 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +118,10 @@
 			isa = PBXGroup;
 			children = (
 				AC2C4C8626E4216C002BEA6C /* AttendeaseApp.swift */,
+				AA8F74AE26E42AD500B73781 /* AttendenceReportView.swift */,
 				AC2C4CC326E421BC002BEA6C /* LogInPageView.swift */,
+				AA8F74BC26E4588E00B73781 /* YourClassView.swift */,
+				AA8F74B326E44E6F00B73781 /* QRScannerView.swift */,
 				AC2C4CC626E421CB002BEA6C /* LogInPageAssets */,
 				AC2C4C8826E4216F002BEA6C /* Assets.xcassets */,
 			);
@@ -163,6 +179,7 @@
 			children = (
 				AC2C4CC726E421EF002BEA6C /* SignIn.swift */,
 				AC2C4CCA26E4220E002BEA6C /* CircleImage.swift */,
+				AA8F74BF26E4626E00B73781 /* LoginFunctions.swift */,
 			);
 			path = LogInPageAssets;
 			sourceTree = "<group>";
@@ -183,6 +200,9 @@
 			dependencies = (
 			);
 			name = "Attendease (iOS)";
+			packageProductDependencies = (
+				AA8F74BA26E451B600B73781 /* CodeScanner */,
+			);
 			productName = "Attendease (iOS)";
 			productReference = AC2C4C8D26E4216F002BEA6C /* Attendease.app */;
 			productType = "com.apple.product-type.application";
@@ -274,6 +294,9 @@
 				Base,
 			);
 			mainGroup = AC2C4C8026E4216C002BEA6C;
+			packageReferences = (
+				AA8F74B926E451B600B73781 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = AC2C4C8E26E4216F002BEA6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -325,8 +348,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC2C4CC426E421BC002BEA6C /* LogInPageView.swift in Sources */,
+				AA8F74AF26E42AD600B73781 /* AttendenceReportView.swift in Sources */,
+				AA8F74C026E4626E00B73781 /* LoginFunctions.swift in Sources */,
 				AC2C4CAF26E4216F002BEA6C /* AttendeaseApp.swift in Sources */,
 				AC2C4CC826E421EF002BEA6C /* SignIn.swift in Sources */,
+				AA8F74B426E44E6F00B73781 /* QRScannerView.swift in Sources */,
+				AA8F74BD26E4588E00B73781 /* YourClassView.swift in Sources */,
 				AC2C4CCB26E4220E002BEA6C /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,9 +363,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC2C4CC526E421BC002BEA6C /* LogInPageView.swift in Sources */,
+				AA8F74C126E4626E00B73781 /* LoginFunctions.swift in Sources */,
 				AC2C4CB026E4216F002BEA6C /* AttendeaseApp.swift in Sources */,
+				AA8F74BE26E4588E00B73781 /* YourClassView.swift in Sources */,
 				AC2C4CC926E421EF002BEA6C /* SignIn.swift in Sources */,
 				AC2C4CCC26E4220E002BEA6C /* CircleImage.swift in Sources */,
+				AA8F74B526E44E6F00B73781 /* QRScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,7 +522,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2Q59W8CV9A;
+				DEVELOPMENT_TEAM = 354RHR963U;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -500,7 +530,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ccac.Attendease4;
+				PRODUCT_BUNDLE_IDENTIFIER = ccac.Attendease5;
 				PRODUCT_NAME = Attendease;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -516,7 +546,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2Q59W8CV9A;
+				DEVELOPMENT_TEAM = 354RHR963U;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -524,7 +554,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ccac.Attendease4;
+				PRODUCT_BUNDLE_IDENTIFIER = ccac.Attendease5;
 				PRODUCT_NAME = Attendease;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -712,6 +742,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA8F74B926E451B600B73781 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA8F74BA26E451B600B73781 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA8F74B926E451B600B73781 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC2C4C8126E4216C002BEA6C /* Project object */;
 }
